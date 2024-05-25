@@ -1,0 +1,280 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.collapse navbar-collapse {
+    justify-content: flex-end;
+}
+
+
+
+#navbarNavDropdown {
+    justify-content: flex-end;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: #FF5821;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.navbar-nav {
+    gap: 10px;
+}
+.navbar-brand span{
+    color:  #635551;
+    font-size: 28px;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.nav-item span{
+    color: #FF5821;
+    font-family: "Poppins", sans-serif;
+}
+.nav-item a{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    color: #635551;
+
+}
+.nav-item a:hover{
+    color: #FF5821;
+}
+
+#heros {
+    height: 120vh;
+    background-attachment: fixed; 
+    overflow: hidden;
+    z-index: 2;
+}
+
+.flexbackgrounds {
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-image: url("https://bootstrapmade.com/demo/templates/Flexor/assets/img/hero-bg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.contentonbkg {
+    background-color: #0006;
+    height: 100%;
+    width: 100%;
+    padding: 250px 95px;
+    font-size: 36px;
+    color: #fff;
+}
+
+#heros h1{
+    font-size: 48px;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    margin: 0px 0px 10px;
+}
+#heros h2{
+    color: #EEEEEE;
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+    /* margin: 0px 0px 50px; */
+}
+
+.getbtn a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+    background-color: #584B48;
+    margin: 0px 0px 0px -10px;
+    padding: 10px 30px;
+    border-radius: 10%;
+
+}
+.getbtn i{
+    background-color: #FF5821;
+    border: 1px solid #FF5821;
+    border-radius: 50%;
+    position: relative;
+    left: 20px;
+    top: 8px;
+    padding: 10px;
+}
+
+
+
+
+
+
+/* .getbtn a {
+    background-color: #584B48;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 0 50px 50px 0;
+    text-decoration: none;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-left: -10px;
+    padding: 8px 26px 8px 26px;
+    position: relative;
+    z-index: 4;
+}
+
+.ri-arrow-right-line {
+    background-color: #FF5821;
+    border-radius: 50%;
+    position: relative;
+    left: 20px;
+    opacity: 2;
+    font-size: 28px;
+    padding: 14px;
+    z-index: 5;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* WHYCHOSSE */
+.whychoose {
+    background-color: #FF5821;
+    color: white;
+    padding: 30px;
+}
+
+.whychoose h2 {
+    font-size: 34px;
+}
+
+.whychoose a {
+    text-decoration: none;
+    color: white;
+    background-color: #ffffff33;
+    padding: 6px 30px 8px;
+    border-radius: 50px;
+}
+
+.whybox {
+    padding: 40px 30px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.whybox svg{
+    text-align: center;
+
+}
+
+.whysection .row {
+    align-items: center;
+}
+
+body {
+    background-color: rgb(205, 220, 217);
+}
+
+
+
+#aboutsec {
+    background-color: #fff9f7;
+    padding-top: 7%;
+    margin-top: 30px;
+}
+
+.aboutLR {
+    display: flex;
+}
+
+
+.rightabout h4 {
+    color: #7F6D68;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 100;
+}
+
+.rightabout h3 {
+    color: #554945;
+    font-size: 28px;
+    font-family: "Raleway", sans-serif;
+}
+
+.rightabout {
+    margin-left: 5%;
+}
+
+.firsticonbox {
+    padding: 5%;
+}
+
+.aboutsvg svg {
+    float: left;
+    position: relative;
+    right: 20px;
+    bottom: 20px;
+    border: 1px solid #ffcbba;
+    fill: #FF5821;
+    border-radius: 50%;
+    padding: 1%;
+}
+
+.aboutsvg svg:hover {
+}
+
+.rightabout h4 {
+    color: #343A40;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+}
+
+.aboutsec p {
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    color: #313030;
+}
+
+
+
+
+
+/* services containe */
+
+
+.service-container{
+    background-color: #FFF9F7;
+    text-align: center;
+}
+.icon-box{
+    background-color: #fff;
+    /* background-color: #FF5821; */
+}
+.icon-box h4 a{
+    text-decoration: none;
+    color: #000;
+}
+.sectiontext{
+    padding: 10px 20px;
+}
+
+.icon{
+    background-color: #FF5821;
+    /* border-radius: 50%; */
+    position: relative;
+    display: flex;
+   
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* border: 1px solid #FF5821; */
+}

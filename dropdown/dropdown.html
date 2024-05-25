@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    ul li {
+        position: relative;
+        display: inline-block;
+        margin-left: 40px;
+    }
+
+    ul li a {
+        display: block;
+        color: #333;
+        padding: 10px 20px;
+        text-decoration: none;
+    }
+
+    ul li ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #fff;
+        /* border: 1px solid #ccc; */
+    }
+
+    ul li:hover ul {
+        display: block;
+        background-color: #333;
+        color: #ffff;
+    }
+    
+</style>
+
+<body>
+    <ul>
+        <li><a></a>Home</li>
+        <li><a></a>About</li>
+        <li><a></a>DropDown
+            <ul>
+                <!-- <li><a></a>DropDown</li> -->
+                <li><a></a>DropDown1</li>
+                <li><a></a>DropDown2</li>
+                <li><a></a>DropDown3</li>
+                <li><a></a>DropDown4</li>
+                <li><a></a>DropDown5</li>
+                <li><a></a>DropDown6</li>
+                <li><a></a>DropDown7</li>
+            </ul>
+        <li><a></a>Contact</li>
+        </li>
+
+    </ul>
+</body>
+
+</html>

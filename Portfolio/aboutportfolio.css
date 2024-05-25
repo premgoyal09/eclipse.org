@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(24, 0, 62);
+}
+#main a{
+    color: #fff;
+    font-size: 20px;
+}
+#center{
+    text-align: center;
+    color: #fff;
+    font-family: "PT Serif", serif;
+    font-weight: 300;
+    position: relative;
+    top: 50px;
+    padding-bottom: 20%;
+}
+#center h1{
+    font-size: 40px;
+}
+.bgcolor{
+    /* background-color: rgb(172, 168, 168); */
+    overflow: hidden;
+    font-style: italic;
+    color: pink;
+}
+
+#projects h1{
+    text-align: center;
+    padding: 2%;
+    color: rgb(24, 0, 62)
+}
+#projects .project{
+    display: grid;
+}
+
+#content{
+    background-color: rgb(24, 0, 62);
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+#content h1{
+    padding-top: 20px;
+}
+
+#content .coffee-question{
+    position: relative;
+    left: 20px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.social-medias{
+    display: flex;
+    justify-content: space-evenly;
+}
+.social-medias a{
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+}
+.social-medias a:hover{
+    scale: 1.5;
+
+
+}
